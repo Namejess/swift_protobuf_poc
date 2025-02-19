@@ -6,6 +6,34 @@
 //
 
 import Foundation
+import SwiftProtobuf
 
-print("Hello, World!")
+// Exemple de données
+var user = User()
+user.id = 1
+user.name = "Alice"
+user.email = "alice@example.com"
 
+// Sérialisation en Data
+let userData = try! user.serializedData()
+print("Données sérialisées : \(userData)")
+
+if let decodedUser = try? User(serializedBytes: userData) {
+	print("User décodé : \(decodedUser.name), Email: \(decodedUser.email)")
+}
+
+// =================================================================================
+// .
+//==================================================================================
+// Exemple
+let users = (1...1000).map { id in
+	var user = User()
+	user.id = Int32(id)
+	user.name = "User \(id)"
+	user.email = "user\(id)@example.com"
+	return user
+}
+
+Task {
+	await serializeUsersConcurrently(users: users)
+}

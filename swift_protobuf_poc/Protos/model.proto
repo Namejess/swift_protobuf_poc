@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message User {
+	int32 id = 1;
+	string name = 2;
+	string email = 3;
+}
+
+message ComplexObject {
+	int64 id = 1;
+	repeated User users = 2;
+	bytes rawData = 3;
+}
