@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		381143042D6612AD008A3988 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 381143032D6612AD008A3988 /* SwiftProtobuf */; };
 		381143062D6612AD008A3988 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 381143052D6612AD008A3988 /* SwiftProtobufPluginLibrary */; };
+		381143112D661B3E008A3988 /* PostgresNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 381143102D661B3E008A3988 /* PostgresNIO */; };
+		381143132D661B3E008A3988 /* _ConnectionPoolModule in Frameworks */ = {isa = PBXBuildFile; productRef = 381143122D661B3E008A3988 /* _ConnectionPoolModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381143132D661B3E008A3988 /* _ConnectionPoolModule in Frameworks */,
 				381143062D6612AD008A3988 /* SwiftProtobufPluginLibrary in Frameworks */,
+				381143112D661B3E008A3988 /* PostgresNIO in Frameworks */,
 				381143042D6612AD008A3988 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +90,8 @@
 			packageProductDependencies = (
 				381143032D6612AD008A3988 /* SwiftProtobuf */,
 				381143052D6612AD008A3988 /* SwiftProtobufPluginLibrary */,
+				381143102D661B3E008A3988 /* PostgresNIO */,
+				381143122D661B3E008A3988 /* _ConnectionPoolModule */,
 			);
 			productName = swift_protobuf_poc;
 			productReference = 381142EB2D66113F008A3988 /* swift_protobuf_poc */;
@@ -117,6 +123,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				381143022D6612AD008A3988 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				3811430F2D661B3E008A3988 /* XCRemoteSwiftPackageReference "postgres-nio" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 381142EC2D66113F008A3988 /* Products */;
@@ -311,6 +318,14 @@
 				minimumVersion = 1.28.2;
 			};
 		};
+		3811430F2D661B3E008A3988 /* XCRemoteSwiftPackageReference "postgres-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/postgres-nio";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.25.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -323,6 +338,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 381143022D6612AD008A3988 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
 			productName = SwiftProtobufPluginLibrary;
+		};
+		381143102D661B3E008A3988 /* PostgresNIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3811430F2D661B3E008A3988 /* XCRemoteSwiftPackageReference "postgres-nio" */;
+			productName = PostgresNIO;
+		};
+		381143122D661B3E008A3988 /* _ConnectionPoolModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3811430F2D661B3E008A3988 /* XCRemoteSwiftPackageReference "postgres-nio" */;
+			productName = _ConnectionPoolModule;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
