@@ -12,21 +12,15 @@ import PostgresNIO
 // POSTGRES CONNECTION
 //==================================================================================
 
-// Init .env
-let username = ProcessInfo.processInfo.environment["POSTGRES_USERNAME"] ?? "unknown"
-let password = ProcessInfo.processInfo.environment["POSTGRES_PASSWORD"] ?? "unknown"
-
-// Configuration de la connexion à PostgreSQL
+// Création du client
 let config = PostgresClient.Configuration(
-	host: "localhost",
-	port: 5432,
-	username: username,
-	password: password,
-	database: "postgres",
+	host: parameters_postgres.host,
+	username: parameters_postgres.username,
+	password: parameters_postgres.password,
+	database: parameters_postgres.database,
 	tls: .disable
 )
 
-// Initialisation du client PostgreSQL
 let client = PostgresClient(configuration: config)
 
 // Exécution asynchrone du client PostgreSQL

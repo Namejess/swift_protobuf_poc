@@ -7,7 +7,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DD6C87BE-33C5-4AAC-803C-CE4270F72932"
+            uuid = "FB67142A-9FDA-4502-A898-8E6717E1F6FD"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -18,6 +18,154 @@
             endingLineNumber = "16"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14B3E6D3-0578-4C7E-A8FB-150F2CC41883"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_protobuf_poc/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "14B3E6D3-0578-4C7E-A8FB-150F2CC41883 - e028bf981116e7a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "14B3E6D3-0578-4C7E-A8FB-150F2CC41883 - 33eaedb88b7d967d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "14B3E6D3-0578-4C7E-A8FB-150F2CC41883 - 581de9566b3fdba0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "14B3E6D3-0578-4C7E-A8FB-150F2CC41883 - 66c8045c943614b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "057A0A68-DDBE-470A-9EA3-DCB2FC1ADBCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swift_protobuf_poc/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "057A0A68-DDBE-470A-9EA3-DCB2FC1ADBCB - 581de9566b3fc07c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+               <Location
+                  uuid = "057A0A68-DDBE-470A-9EA3-DCB2FC1ADBCB - e7a4c62eea40f062"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+               <Location
+                  uuid = "057A0A68-DDBE-470A-9EA3-DCB2FC1ADBCB - 677f803828997563"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+               <Location
+                  uuid = "057A0A68-DDBE-470A-9EA3-DCB2FC1ADBCB - e45a420a6d33f660"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;(), Swift.Error&gt;) async throws -&gt; () in swift_protobuf_poc"
+                  moduleName = "swift_protobuf_poc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/swift_protobuf_poc/swift_protobuf_poc/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
